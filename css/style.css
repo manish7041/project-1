@@ -1,0 +1,1039 @@
+*{  margin:0;
+    padding:0; 
+    /* background-color:orchid; */
+    /* background-image: url(/bookself.jpg); */
+}
+
+/* [HEADER CODE START] */
+header{
+    z-index:5;
+    top: 0px;
+    width: 100%;
+    position:sticky;
+    display:flex;
+    background-image: url(/headerimg/bookself2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100px;
+    
+}
+
+.header-a{ 
+       position:absolute;
+       display:inline;
+       top: 5px;
+       left: 40px;
+       height: 0px;
+       width: 0px;
+       
+}     
+.header-logo{
+        position:relative;
+        display:block;
+        height: 70px;
+        width: 160px;
+        border-radius:40px;
+        /* border: 1px solid rgb(15, 61, 62);
+        border-style: inset;  */
+}  
+
+.searchbar{
+    position:absolute;
+    display:inline-flex;
+    top: 30px;
+    left: 620px;
+    width:400px;
+    height:0px;
+   
+}
+
+.header-button{
+         
+          position:relative;
+          display:block;
+          top: 0px;
+          padding: 0.5px;
+          height:29px;
+          width:33px; 
+          background-color: rgb(245, 241, 242);
+          border-color: rgb(242, 246, 246);
+          border-radius: 5px 0px 0px 5px;
+          background-image: url();
+} 
+ .header-button img{
+    position:relative;
+    display:block;
+    height: 24px;
+    width: 28px;
+    border-radius: 5px 0px 0px 5px;
+
+
+ }
+
+  .header-searchbar{
+    position:relative;
+    display:block;
+    border-style:solid;
+    height:29px;
+    width: 450px;
+    left:0px;
+    top: 0px;
+    border:0.5px 0.5px;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    border-color:2px rgb(244, 241, 238);
+    background-color: rgb(247, 241, 243);
+} 
+
+.header-i{
+        position:absolute;
+        left: 1300px;
+        display:inline-flex;
+        width: 0px;
+        height:0px;
+        top: 30px;
+        background-color: rgb(239, 240, 232); 
+}
+
+.user-icon{
+    position:relative;
+    display:inline;
+    left: 40px;
+    background-color: rgba(248, 248, 253, 0);
+
+}
+
+.cart-icon{
+    position:relative;
+    display:inline;
+    left:60px;
+    background-color: rgba(0, 0, 0, 0);
+
+
+}
+    
+
+.heart-icon{
+    position:relative;
+    display:inline;
+    left:80px;
+    background-color: rgba(248, 248, 253, 0);
+    background-image: url();
+    
+} 
+
+/* [HEADER CODE ENDs] */
+
+
+
+/* [NAVIGATION BAR CODE STARTS] */
+nav{
+    z-index:5;
+    top: 75px;
+    width: 100%;
+    height: 35px;
+    position:sticky;
+    background-color:rgb(15, 61, 62) ;
+}
+
+.navigation{
+    position:relative;
+    display:flex;
+    height:0px;
+    width:800px;
+    left:280px;
+    
+}
+
+.navigationlist{
+    position: relative;
+    display:inline;
+    width:500px;
+    height:0px; 
+    left: 0px;
+
+}
+   .navanchor{
+    position:relative;
+    display:inline;
+    text-decoration:underline;
+    left: 0px;
+    top: 4px;
+    height: 35px;
+    background-color:rgb(15, 61, 62) ;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding: 4px 8px 9px 7px;
+}
+ 
+.navanchor:hover{
+    background-color:whitesmoke;
+    color: black;
+}
+
+ .book{
+        text-align:center;
+        width:60px;
+        position:absolute;
+        left: 80px;
+        top: 4px;
+        height: 3px;
+        color: white;
+        font-size:18px;
+        display:inline-block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:rgb(15, 61, 62) ;
+        /* border: 1px solid black; */
+}
+
+.booklist{
+      list-style-type:none;
+      position:relative;
+      top:0px;
+      background-color:rgb(15, 61, 62);
+      left: -80px;
+      height:405px;
+      font-size: 16px;
+      text-align:left;
+      list-style-type: none;
+      color:white;
+      display:none;
+}
+
+.book:hover{
+    color: black;
+}
+
+.book:hover .booklist{
+    display:block;
+    width: 240px;
+}
+
+
+/* [BOOKLIST DROPDOWN & SUBLIST CODE] */
+
+/* [LITERATURE & LITERATURELIST CODE] */
+
+
+.booklistanchor{
+    position: relative;
+    display: block;
+    height: 0px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.literature{
+    position: relative;
+    top:8px;
+    color:white;
+    background-color:rgb(15, 61, 62) ;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
+
+.literaturelist{
+    list-style-type: none;
+    position: absolute;
+    background-color:rgb(15, 61, 62);
+    left: 240px;
+    height: 200px;
+    width: 180px;
+    top: 0px;
+    display:none;
+
+}
+
+.literature:hover{
+      
+    background-color:rgb(252, 245, 245);
+    color: black;
+    }   
+
+.literature:hover .literaturelist{
+    display:block;
+}
+
+.listone {
+    position: relative;
+    top:15px;
+    left: 0px;
+    height:30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color:rgb(15, 61, 62);
+}
+.listone:hover{
+        
+    background-color:rgb(252, 245, 245);
+}
+.listone:hover .booklistanchor{
+    background-color:rgb(252, 245, 245);
+    color: black;
+
+}
+/* [LITERATURE END] */
+
+
+/* [HISTORY & HUMANITIES CODE] */
+.history{
+    position: relative;
+    top:8px;
+    color:white;
+    background-color:rgb(15, 61, 62);
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
+
+.historylist{
+    list-style-type: none;
+    position: absolute;
+    background-color: rgb(15, 61, 62);
+    left: 240px;
+    height: 140px;
+    width: 180px;
+    top: 0px;
+    display:none;
+
+}
+
+.history:hover{
+    background-color:rgb(252, 245, 245);
+    color: black;
+    }   
+
+.history:hover .historylist{
+    display:block;
+}
+
+.listtwo {
+    position: relative;
+    top:15px;
+    left: 0px;
+    height:30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color: rgb(15, 61, 62);
+}
+.listtwo:hover{
+        
+    background-color:rgb(252, 245, 245);
+}
+.listtwo:hover .booklistanchor{
+    background-color:rgb(252, 245, 245);
+    color: black;
+
+}
+/* [HISTORY END] */
+
+/* [ SOCIETY & SOCIETYLIST CODE] */
+.society{
+    position: relative;
+    top:8px;
+    color:white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: rgb(15, 61, 62);
+
+}
+
+.societylist{
+    list-style-type: none;
+    position: absolute;
+    background-color: rgb(15, 61, 62);
+    left: 240px;
+    height: 140px;
+    width: 180px;
+    top: 0px;
+    display:none;
+
+}
+
+.society:hover{
+      
+    background-color:rgb(252, 245, 245);
+    color: black;
+    }   
+
+.society:hover .societylist{
+    display:block;
+}
+
+.listthree {
+    position: relative;
+    top:15px;
+    left: 0px;
+    height:30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color:rgb(15, 61, 62);
+}
+.listthree:hover{
+        
+    background-color:rgb(252, 245, 245);
+}
+.listthree:hover .booklistanchor{
+    background-color:rgb(252, 245, 245);
+    color: black;
+
+}
+/* [SOCIETYLIST END] */
+
+
+/* [SCIENCE & SICENCELIST CODE] */
+.science{
+    position: relative;
+    top:8px;
+    color:white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: rgb(15, 61, 62);
+
+}
+
+.sciencelist{
+    list-style-type: none;
+    position: absolute;
+    background-color:rgb(15, 61, 62);
+    left: 240px;
+    height: 170px;
+    width: 180px;
+    top: 0px;
+    display:none;
+
+}
+
+.science:hover{
+      
+    background-color:rgb(252, 245, 245);
+    color: black;
+    }   
+
+.science:hover .sciencelist{
+    display:block;
+}
+
+.listfour {
+    position: relative;
+    top:15px;
+    left: 0px;
+    height:30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color: rgb(15, 61, 62);
+}
+.listfour:hover{
+        
+    background-color:rgb(252, 245, 245);
+}
+.listfour:hover:hover .booklistanchor{
+    background-color:rgb(252, 245, 245);
+    color: black;
+
+}
+/* [SCIENCELIST END] */
+
+
+/* [ENVIORNMENT & ENVIORNMENTLIST CODE] */
+.enviornment{
+    position: relative;
+    top:8px;
+    color:white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: rgb(15, 61, 62);
+
+}
+
+.enviornmentlist{
+    list-style-type: none;
+    position: absolute;
+    background-color:rgb(15, 61, 62);
+    left: 240px;
+    height: 140px;
+    width: 180px;
+    top: 0px;
+    display:none;
+
+}
+
+.enviornment:hover{
+      
+    background-color:rgb(252, 245, 245);
+    color: black;
+    }   
+
+.enviornment:hover .enviornmentlist{
+    display:block;
+}
+
+.listfive {
+    position: relative;
+    top:15px;
+    left: 0px;
+    height:30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color: rgb(15, 61, 62);
+}
+.listfive:hover{
+        
+    background-color:rgb(252, 245, 245);
+}
+.listfive:hover .booklistanchor{
+    background-color:rgb(252, 245, 245);
+    color: black;
+
+}
+/* [ENVIORNMENTLIST END] */
+
+
+/* [FAMILY & FAMILYLIST CODE] */
+.family{
+    position: relative;
+    top:8px;
+    color:white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: rgb(15, 61, 62);
+
+}
+
+.familylist{
+    list-style-type: none;
+    position: absolute;
+    background-color:rgb(15, 61, 62);
+    left: 240px;
+    height: 110px;
+    width: 180px;
+    top: 0px;
+    display:none;
+
+}
+
+.family:hover{
+      
+    background-color:rgb(252, 245, 245);
+    color: black;
+    }   
+
+.family:hover .familylist{
+    display:block;
+}
+
+.listsix {
+    position: relative;
+    top:15px;
+    left: 0px;
+    height:30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color: rgb(15, 61, 62);
+}
+.listsix:hover{
+        
+    background-color:rgb(252, 245, 245);
+}
+.listsix:hover .booklistanchor{
+    background-color:rgb(252, 245, 245);
+    color: black;
+
+}
+/* [FAMILYLIST END] */
+
+
+/* [BIOGHRAPHIES & BIOGRAPHIESLIST CODE] */
+.biographies{
+    position: relative;
+    top:8px;
+    color:white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: rgb(15, 61, 62);
+
+}
+
+.biographieslist{
+    list-style-type: none;
+    position: absolute;
+    background-color:rgb(15, 61, 62);
+    left: 240px;
+    height: 110px;
+    width: 180px;
+    top: 0px;
+    display:none;
+
+}
+
+.biographies:hover{
+      
+    background-color:rgb(252, 245, 245);
+    color: black;
+    }   
+
+.biographies:hover .biographieslist{
+    display:block;
+}
+
+.listseven {
+    position: relative;
+    top:15px;
+    left: 0px;
+    height:30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color: rgb(15, 61, 62);
+}
+.listseven:hover{
+        
+    background-color:rgb(252, 245, 245);
+}
+.listseven:hover .booklistanchor{
+    background-color:rgb(252, 245, 245);
+    color: black;
+
+}
+/* [bIOGRAPHIESLIST END] */
+
+
+/* [ART & ARTLIST CODE] */
+.art{
+    position: relative;
+    top:8px;
+    color:white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: rgb(15, 61, 62);
+
+}
+
+.artlist{
+    list-style-type: none;
+    position: absolute;
+    background-color:rgb(15, 61, 62);
+    left: 240px;
+    height: 200px;
+    width: 180px;
+    bottom:0px;
+    display:none;
+
+}
+
+.art:hover{
+      
+    background-color:rgb(252, 245, 245);
+    color: black;
+    }   
+
+.art:hover .artlist{
+    display:block;
+}
+
+.listeight {
+    position: relative;
+    top:15px;
+    left: 0px;
+    height:30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color: rgb(15, 61, 62);
+}
+.listeight:hover{
+        
+    background-color:rgb(252, 245, 245);
+}
+.listeight:hover:hover .booklistanchor{
+    background-color:rgb(252, 245, 245);
+    color: black;
+
+}
+/* [ARTLIST END] */
+
+
+/* [ENCYCLOPAEDIA &  E-LIST CODE] */
+.encyclopaedia{
+    position: relative;
+    top:8px;
+    color:white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: rgb(15, 61, 62);
+
+}
+
+.encyclopaedialist{
+    list-style-type: none;
+    position: absolute;
+    background-color:rgb(15, 61, 62);
+    left: 240px;
+    height: 170px;
+    width: 180px;
+    bottom:0px;
+    display:none;
+
+}
+
+.encyclopaedia:hover{
+      
+    background-color:rgb(252, 245, 245);
+    color: black;
+    }   
+
+.encyclopaedia:hover .encyclopaedialist{
+    display:block;
+}
+
+.listnine {
+    position: relative;
+    top:15px;
+    left: 0px;
+    height:30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color: rgb(15, 61, 62);
+}
+.listnine:hover{
+        
+    background-color:rgb(252, 245, 245);
+}
+.listnine:hover:hover .booklistanchor{
+    background-color:rgb(252, 245, 245);
+    color: black;
+
+}
+
+/* [ENCYCLOPAEDIA END] */
+
+/* [NAVIGATION BAR CODE ENDS] */
+
+
+/* [Main code STARTS] */
+/* .content-container{
+    z-index: 4;
+    display: block;
+    background-color: aqua;
+    height: 800px;
+    width: 100%;
+} */
+
+.maincontainer{
+    
+    display:inline;
+    position:relative;
+    height:0px;
+    width: 0px;
+    top:0px;
+}
+
+.trendhead{
+    position:relative;
+    display:block;
+    border-radius: 3px;
+    background-color: orange;
+    width: 500px;
+    text-align: center;
+    left: 500px;
+    top: 28px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.trendbody{
+    position: relative;
+    display:flex;
+    /* background-color: aqua; */
+    background-image: url(/img/bookself3.jpg);
+    top: 30px;
+    left:110px;
+    height:280px;
+    width: 1300px;
+}
+
+.trendsection{
+      position:relative;
+      display:block;
+      background-color: yellow;
+      width:1200px;
+      border-left: 2px solid whitesmoke;
+      height:0px;
+      left: 50px;
+}
+
+.trendanchor{
+    position: relative;
+    display:block;
+    height:215px;
+    width:160px;
+    left: 7px;
+    top: 25px;
+    border-left: 2px solid black ;
+    background-color: rgb(250, 252, 252);
+}
+
+.trendanchor img{
+    display:inline;
+    position:relative;
+    top: 8px;
+    background-attachment: fixed;
+    left: 10px;
+    height: 200px;
+    width: 140px;
+} 
+
+.trendanchor:hover{
+    background-color: orange;
+}
+
+
+/* [MAIN CODE END] */
+
+/* [DISCOUNT OFFER CODE STARTS] */
+
+.discount{
+    z-index:4;
+    background-color:coral;
+    position:relative;
+    top: 55px;
+    height: 0px;
+    width: 0px;
+    display:inline;
+}
+
+.discounthead{
+    display:inline;
+    position:relative;
+    top: 0px;
+    left:650px;
+    
+}
+.discountoffer{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    font-size: 26px;
+    text-align:center;
+    font-family: Georgia,'Times New Roman', Times, serif;
+    background-color: rgb(240, 240, 6);
+
+}
+
+
+.bookoffer{
+    display: flex;
+    position: relative;
+    top:5px;
+    left: 65px;
+    width:1400px;
+    height: 2px;
+    background-color: yellow;
+}
+
+.actualprice a{
+    text-decoration: none;
+    background-color:yellow;
+    color: black;
+}
+
+.bookoffer1-items{
+    left: 45px;
+    position: relative;
+    display: block;
+    height:273px;
+    padding: 5px 5px 5px 5px;
+    width: 135px;
+    background-color:rgb(252, 252, 248);
+    border: 1px solid red;
+    
+}
+
+.bookoffer1-items:hover{
+    background-color: rgb(240, 240, 6);
+
+}
+
+.bookoffer1-items:hover .actualprice a{
+    background-color:red;
+
+}
+
+.offer1offer{
+    position:absolute;
+    height: 0px;
+}
+
+.bookoffer2-items{
+    left: 90px;
+    position: relative;
+    padding: 5px;
+    width: 135px;
+    background-color:rgb(252, 252, 248);
+    border: 1px solid red;
+    height:273px;
+}
+.bookoffer2-items:hover{
+    background-color: rgb(240, 240, 6);
+
+}
+
+.bookoffer2-items:hover .actualprice a{
+    background-color:red;
+
+}
+
+.offer2offer{
+    position:absolute;
+}
+
+.bookoffer3-items{
+    left: 140px;
+    position: relative;
+    padding: 5px;
+    width: 135px;
+    background-color:rgb(252, 252, 248);
+    border: 1px solid red;
+    height:273px;
+}
+.bookoffer3-items:hover{
+    background-color: rgb(240, 240, 6);
+
+}
+
+.bookoffer3-items:hover .actualprice a{
+    background-color:red;
+
+}
+.offer3offer{
+    position:absolute;
+}
+.bookoffer4-items{
+    left: 185px;
+    position: relative;
+    padding: 5px;
+    width: 135px;
+    background-color:rgb(252, 252, 248);
+    border: 1px solid red;
+    height:273px;
+}
+.bookoffer4-items:hover{
+    background-color: rgb(240, 240, 6);
+
+}
+
+.bookoffer4-items:hover .actualprice a{
+    background-color:red;
+
+}
+.offer4offer{
+    position:absolute;
+}
+.bookoffer5-items{
+    left: 225px;
+    position: relative;
+    padding: 5px;
+    width: 135px;
+    background-color:rgb(252, 252, 248);
+    border: 1px solid red;
+    height:273px;
+}
+
+.bookoffer5-items:hover{
+    background-color: rgb(240, 240, 6);
+
+}
+
+.bookoffer5-items:hover .actualprice a{
+    background-color:red;
+
+}
+.offer5offer{
+    position:absolute;
+}
+.bookoffer6-items{
+    left: 265px;
+    position: relative;
+    padding: 5px;
+    width: 135px;
+    background-color:rgb(252, 252, 248);
+    border: 1px solid red;
+    height:273px;
+}
+.bookoffer6-items:hover{
+    background-color: rgb(240, 240, 6);
+
+}
+
+.bookoffer6-items:hover .actualprice a{
+    background-color:red;
+
+}
+.offer6offer{
+    position:absolute;
+}
+.bookoffer7-items{
+    left: 315px;
+    position: relative;
+    padding: 5px;
+    width: 135px;
+    background-color:rgb(252, 252, 248);
+    border: 1px solid red;
+    height:273px;
+}
+.bookoffer7-items:hover{
+    background-color: rgb(240, 240, 6);
+
+}
+
+.bookoffer7-items:hover .actualprice a{
+    background-color:red;
+
+}
+.offer7offer{
+    position:absolute;
+}
+
+/* [DISCOUNT CODE ENDS] */
+.cont{
+    z-index:-2;
+    position:relative;
+    /* background-image:url(/bookself.jpg); */
+    /* background-color:rgb(8, 10, 53); */
+    height: 100%;
+    
+}
+.footer{
+    display: inline;
+    position: relative;
+    height: 500px;
+    background-color: brown;
+}
