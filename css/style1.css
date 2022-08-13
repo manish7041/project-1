@@ -6,6 +6,7 @@
 }
 
 /* [HEADER CODE START] */
+
 header {
   z-index: 5;
   top: 0px;
@@ -47,8 +48,7 @@ header {
 
 .searchbar img {
   position: relative;
-  display: block;
-  top:1.5px;
+  display:inline;
   height: 27px;
   width: 38px;
   border-radius: 5px 0px 0px 5px;
@@ -682,121 +682,201 @@ nav {
   color: black;
 }
 
-/* [ENCYCLOPAEDIA END] */
+.book-info {
+  z-index: 4;
+  position: relative;
+  display: block;
+  width: 1200px;
+  height:1020px;
+  top: 40px;
+  left: 150px;
+  /* border: 1px solid rgb(2, 2, 2); */
+}
 
-/* [NAVIGATION BAR CODE ENDS] */
+.rich-book-info {
+  padding-left: 42px;
+  padding-top: 45px;
+  width: 210px;
+  height: 350px;
+  top: 40px;
+  left: 150px;
+  border: 1px solid rgb(235, 230, 230);
+}
+
+.book-name {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 300px;
+  height: 100px;
+  width: 900px;
+  border-bottom: 1px solid rgb(241, 236, 236);
+}
+
+.book-author {
+  position: relative;
+  display: block;
+  width: 3500px;
+  font-size: larger;
+}
+
+.line-two {
+  position: relative;
+  top: 10px;
+}
+
+.price-info {
+  position: relative;
+  display: block;
+  left: 300px;
+  top: -240px;
+  height: 40px;
+  width: 600px;
+  /* border: 1px solid black; */
+}
+
+.buy {
+  position: relative;
+  display: flex;
+  height: 30px;
+  top: 30px;
+  text-align: center;
+  /* border: 1px solid black; */
+
+}
+
+.buy-button {
+  position: relative;
+  display: block;
+  padding-top: 3px;
+  width:150px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  border-radius: 10px;
+}
+
+.wish-button {
+  position: relative;
+  display: block;
+  left: 20px;
+  width: 150px;
+  padding-top: 3px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  border-radius: 10px;
+}
+
+.cart-button {
+  position: relative;
+  display: block;
+  left: 40px;
+  width:150px;
+  padding-top: 3px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  border-radius: 10px;
+}
+
+.about-book {
+  position: relative;
+  display: block;
+  top:0px;
+  border-bottom: 1px solid gray;
+  width: 1200px;
+  height: 540px;
+}
+
+.book-discription {
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+  left: -70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.product-detail {
+  z-index: 4;
+  position: relative;
+  display: block;
+  top: 50px;
+  left: 150px;
+  height:200px;
+  width: 1200px;
+  /* border: 1px solid black; */
+}
+
+.product-detail-box {
+  position: relative;
+  display: flex;
+  left: 110px;
+  width: 700px;
+  /* border: 1px solid black; */
+}
 
 
-.maincontainer {
+.product-detail-one {
+  position: relative;
+  display: inline;
+  top: 10px;
+  left: -110px;
+  width: 500px;
+  list-style-type: none;
+}
+
+.product-detail-two {
+  position: relative;
+  display: inline;
+  top: 0px;
+  left: -100px;
+  list-style-type: none;
+}
+
+.related-catogories {
   z-index:4;
   display:block;
   position:relative;
-  height:360px;
-  width:1450px;
-  top: 30px;
-  left: 20px;
+  top: 120px;
+  left: 150px;
+  width:1200px;
+  height:400px;
   /* border: 1px solid black; */
 }
 
-.trendhead {
+/* [bestseller code starts] */
+.bestseller {
   position: relative;
-  display: block;
-  border-radius: 3px;
-  background-color: orange;
-  width: 500px;
-  text-align: center;
-  left: 500px;
-  top: 28px;
-  height: 30px;
-  font-size: 25px;
-}
-
-.trendbody {
-  position: relative;
-  display: flex;
-  /* background-color: aqua; */
-  background-image: url(/img/bookself3.jpg);
-  top: 30px;
-  left: 70px;
-  height: 280px;
-  width: 1300px;
-}
-
-.trendsection {
-  position: relative;
-  display: block;
-  background-color: yellow;
-  width: 1200px;
-  border-left: 2px solid whitesmoke;
+  top: 10px;
   height: 0px;
-  left: 50px;
-}
-
-.trendanchor {
-  position: relative;
-  display: block;
-  height: 215px;
-  width: 160px;
-  left: 7px;
-  top: 25px;
-  border-left: 2px solid black;
-  background-color: rgb(250, 252, 252);
-}
-
-.trendanchor img {
-  display: inline;
-  position: relative;
-  top: 8px;
-  background-attachment: fixed;
-  left: 10px;
-  height: 200px;
-  width: 140px;
-}
-
-.trendanchor:hover {
-  background-color: orange;
-}
-
-/* [MAIN CODE END] */
-
-/* [DISCOUNT OFFER CODE STARTS] */
-
-.discount {
-  z-index:4;
-  position: relative;
-  top: 55px;
-  height:380px;
   width: 1450px;
   display: block;
-  /* border: 1px solid black; */
-  margin-left: 30px;
 }
 
-.discounthead {
+.besthead {
   display: inline;
   position: relative;
-  top:20px;
-  left:35px;
+  top: 10px;
+  left: 0px;
 }
 
-.discountoffer {
+.bestsellerh {
   position: relative;
   width: 200px;
   height: 30px;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(15, 61, 62);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.bookoffer {
+.bestoffer {
   display: flex;
   position: relative;
-  top: 50px;
-  left: 20px;
+  top: 15px;
+  left: 0px;
   width: 1400px;
-  height: 0px;
-  padding: 15px;
+  height: 200px;
 }
 
 .actualprice a {
@@ -805,9 +885,9 @@ nav {
   color: black;
 }
 
-.bookoffer1-items {
-  left: 0px;
-  position:absolute;
+.bestoffer1-items {
+  left: 10px;
+  position: absolute;
   display: block;
   height: 273px;
   padding: 5px 5px 5px 5px;
@@ -815,228 +895,23 @@ nav {
   background-color: rgb(252, 252, 248);
 }
 
-.bookoffer1-items:hover {
-  background-color:rgb(210, 224, 228);
-  border: 1px solid lightslategray;
-}
-
-.bookoffer1-items:hover .actualprice a {
-  background-color: red;
-}
-
-.offer1offer {
-  position: absolute;
-  height: 0px;
-}
-
-.bookoffer2-items {
-  left:200px;
-  position:absolute;
-  padding: 5px;
-  width: 135px;
-  background-color: rgb(252, 252, 248);
-  height: 273px;
-}
-
-.bookoffer2-items:hover {
-    background-color:rgb(210, 224, 228);
-  border: 1px solid lightslategray;
-}
-
-.bookoffer2-items:hover .actualprice a {
-  background-color: red;
-}
-
-.offer2offer {
-  position: absolute;
-}
-
-.bookoffer3-items {
-  left: 415px;
-  position:absolute;
-  padding: 5px;
-  width: 135px;
-  background-color: rgb(252, 252, 248);
-  height: 273px;
-}
-
-.bookoffer3-items:hover {
-  background-color:rgb(210, 224, 228);
-  border: 1px solid lightslategray;
-}
-
-.bookoffer3-items:hover .actualprice a {
-  background-color: red;
-}
-
-.offer3offer {
-  position: absolute;
-}
-
-.bookoffer4-items {
-  left:620px;
-  position:absolute;
-  padding: 5px;
-  width: 135px;
-  background-color: rgb(252, 252, 248);
-  height: 273px;
-}
-
-.bookoffer4-items:hover {
-  background-color:rgb(210, 224, 228);
-  border: 1px solid lightslategray;
-}
-
-.bookoffer4-items:hover .actualprice a {
-  background-color: red;
-}
-
-.offer4offer {
-  position: absolute;
-}
-
-.bookoffer5-items {
-  left:830px;
-  position:absolute;
-  padding: 5px;
-  width: 135px;
-  background-color: rgb(252, 252, 248);
-  height: 273px;
-}
-
-.bookoffer5-items:hover {
-  background-color:rgb(210, 224, 228);
-  border: 1px solid lightslategray;
-}
-
-.bookoffer5-items:hover .actualprice a {
-  background-color: red;
-}
-
-.offer5offer {
-  position: absolute;
-}
-
-.bookoffer6-items {
-  left: 1040px;
-  position:absolute;
-  padding: 5px;
-  width: 135px;
-  background-color: rgb(252, 252, 248);
-  height: 273px;
-}
-
-.bookoffer6-items:hover {
-  background-color:rgb(210, 224, 228);
-  border: 1px solid lightslategray;
-}
-
-.bookoffer6-items:hover .actualprice a {
-  background-color: red;
-}
-
-.offer6offer {
-  position: absolute;
-}
-
-.bookoffer7-items {
-  left:1250px;
-  position:absolute;
-  padding: 5px;
-  width: 135px;
-  background-color: rgb(252, 252, 248);
-  height: 273px;
-}
-
-.bookoffer7-items:hover {
-  background-color:rgb(210, 224, 228);
-  border: 1px solid lightslategray;
-}
-
-.bookoffer7-items:hover .actualprice a {
-  background-color: red;
-}
-
-.offer7offer {
-  position: absolute;
-}
-
-/* [DISCOUNT CODE ENDS] */
-
-
-/* [international code start] */
-
-.international {
-  z-index:4;
-  position: relative;
-  top:100px;
-  height:360px;
-  width: 1450px;
-  display: block;
-  /* border: 1px solid black; */
-  margin-left: 30px;
-}
-
-.interhead {
-  display: inline;
-  position: relative;
-  top: 10px;
-  left: 0px;
-}
-
-.interbest {
-  position: relative;
-  width: 400px;
-  height: 30px;
-  font-size: 30px;
-  text-align: center;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(15, 61, 62);
-}
-
-.interoffer {
-  display: flex;
-  position: relative;
-  top: 30px;
-  left: 20px;
-  width: 1400px;
-  height: 0px;
-}
-
-.interactualprice a {
-  text-decoration: none;
-  color: black;
-}
-
-.interoffer1-items {
-  left: 0px;
-  position:relative;
-  display: block;
-  height: 273px;
-  padding: 5px 5px 5px 5px;
-  margin: 5px 5px 5px 5px;
-  width: 135px;
-  
-  background-color: rgb(252, 252, 248);
-}
-
-.interoffer1-items:hover {
-  background-color: rgb(212, 202, 202);
+.bestoffer1-items:hover {
+  background-color: wheat;
   border: 1px solid gray;
 }
 
-.interoffer1-items:hover .interactualprice a {
-  background-color: orangered;
+.bestoffer1-items:hover .actualprice a {
+  background-color: red;
 }
 
-.inter1offer {
+.best1offer {
   position: absolute;
   height: 0px;
 }
 
 
-.interoffer2-items {
-  left:250px;
+.bestoffer2-items {
+  left: 200px;
   position: absolute;
   display: block;
   height: 273px;
@@ -1045,73 +920,98 @@ nav {
   background-color: rgb(252, 252, 248);
 }
 
-.interoffer2-items:hover {
-  background-color: rgb(212, 202, 202);
+.bestoffer2-items:hover {
+  background-color: wheat;
   border: 1px solid gray;
 }
 
-.interoffer2-items:hover .interactualprice a {
-  background-color: orangered;
+.bestoffer2-items:hover .actualprice a {
+  background-color: red;
 }
 
-.inter2offer {
+.best2offer {
   position: absolute;
   height: 0px;
 }
 
-.interoffer3-items {
-  left:500px;
-  position:absolute;
+
+.bestoffer3-items {
+  left: 400px;
+  position: absolute;
   display: block;
   height: 273px;
   padding: 5px 5px 5px 5px;
   width: 135px;
   background-color: rgb(252, 252, 248);
- 
 }
 
-.interoffer3-items:hover {
-  background-color: rgb(212, 202, 202);
+.bestoffer3-items:hover {
+  background-color: wheat;
   border: 1px solid gray;
 }
 
-.interoffer3-items:hover .interactualprice a {
-  background-color: orangered;
+.bestoffer3-items:hover .actualprice a {
+  background-color: red;
 }
 
-.inter3offer {
+.best3offer {
   position: absolute;
   height: 0px;
 }
 
-.interoffer4-items {
-  left:750px;
-  position:absolute;
+
+.bestoffer4-items {
+  left: 600px;
+  position: absolute;
   display: block;
   height: 273px;
   padding: 5px 5px 5px 5px;
   width: 135px;
   background-color: rgb(252, 252, 248);
-  
 }
 
-.interoffer4-items:hover {
-  background-color: rgb(212, 202, 202);
+.bestoffer4-items:hover {
+  background-color: wheat;
   border: 1px solid gray;
 }
 
-.interoffer4-items:hover .interactualprice a {
-  background-color: orangered;
+.bestoffer4-items:hover .actualprice a {
+  background-color: red;
 }
 
-.inter4offer {
+.best4offer {
   position: absolute;
   height: 0px;
 }
 
-.interoffer5-items {
+
+.bestoffer5-items {
+  left: 800px;
+  position: absolute;
+  display: block;
+  height: 273px;
+  padding: 5px 5px 5px 5px;
+  width: 135px;
+  background-color: rgb(252, 252, 248);
+}
+
+.bestoffer5-items:hover {
+  background-color: wheat;
+  border: 1px solid gray;
+}
+
+.bestoffer5-items:hover .actualprice a {
+  background-color: red;
+}
+
+.best5offer {
+  position: absolute;
+  height: 0px;
+}
+
+.bestoffer6-items {
   left: 1000px;
-  position:absolute;
+  position: absolute;
   display: block;
   height: 273px;
   padding: 5px 5px 5px 5px;
@@ -1119,70 +1019,38 @@ nav {
   background-color: rgb(252, 252, 248);
 }
 
-.interoffer5-items:hover {
-  background-color: rgb(212, 202, 202);
+.bestoffer6-items:hover {
+  background-color: wheat;
   border: 1px solid gray;
 }
 
-.interoffer5-items:hover .interactualprice a {
-  background-color: orangered;
+.bestoffer6-items:hover .actualprice a {
+  background-color: red;
 }
 
-.inter5offer {
+.best6offer {
   position: absolute;
   height: 0px;
 }
 
-.interoffer6-items {
-  left: 1100px;
-  position: relative;
-  display: block;
-  height: 273px;
-  padding: 5px 5px 5px 5px;
-  width: 135px;
-  background-color: rgb(252, 252, 248);
-}
 
-.interoffer6-items:hover {
-  background-color: rgb(212, 202, 202);
-  border: 1px solid gray;
-}
 
-.interoffer6-items:hover .interactualprice a {
-  background-color: orangered;
-}
 
-.inter6offer {
-  position: absolute;
-  height: 0px;
-}
-
-/* [international code end] */
-
-.best-fiction{
-  display:block; 
-  position:relative; 
-  top:180px; 
-  left:140px;
-  height:300px;
-  width: 1450px;
-  /* border: 1px soli black; */
-   z-index:4;
-}
-
+/* [footer start code] */
 .footer {
-  z-index:3;
+  z-index:4;
   display:block;
-  position:relative;
-  width:1450;
-  top:250px;
+  position: relative;
+  width: 100%;
+  top: 180px;
+  
 }
 
 .footer-container {
   position: relative;
   display: flex;
   height: 250px;
-  background-color:red;
+  background-color: red;
   width: 100%;
 }
 

@@ -1,0 +1,1065 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color:orchid; */
+    /* background-image: url(/bookself.jpg); */
+  }
+
+  header {
+    z-index: 5;
+    top: 0px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    background-image: url(/headerimg/bookself2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+  }
+  
+  .header-a {
+    position: absolute;
+    display: inline;
+    top: 5px;
+    left: 40px;
+    height: 0px;
+    width: 0px;
+  }
+  
+  .header-logo {
+    position: relative;
+    display: block;
+    height: 70px;
+    width: 70 px;
+    /* border: 1px solid rgb(15, 61, 62);
+          border-style: inset;  */
+  }
+  
+  .searchbar {
+    position: absolute;
+    display: inline-flex;
+    top: 30px;
+    left: 620px;
+    width: 400px;
+    height: 0px;
+  }
+  
+  .searchbar img {
+    position: relative;
+    display: block;
+    top:1.5px;
+    height: 27px;
+    width: 38px;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .header-searchbar {
+    position: relative;
+    display: block;
+    border-style: solid;
+    height: 29px;
+    width: 450px;
+    left: 0px;
+    top: 0px;
+    border: 0.5px 0.5px;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    border-color: 2px rgb(244, 241, 238);
+    background-color: rgb(247, 241, 243);
+  }
+  
+  .header-i {
+    position: absolute;
+    left: 1300px;
+    display: inline-flex;
+    width: 0px;
+    height: 0px;
+    top: 30px;
+    background-color: rgb(239, 240, 232);
+  }
+  
+  .user-icon {
+    position: relative;
+    display: inline;
+    left: 40px;
+    background-color: rgba(248, 248, 253, 0);
+  }
+  
+  .cart-icon {
+    position: relative;
+    display: inline;
+    left: 60px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .heart-icon {
+    position: relative;
+    display: inline;
+    left: 80px;
+    background-color: rgba(248, 248, 253, 0);
+    background-image: url();
+  }
+  
+  /* [HEADER CODE ENDs] */
+  
+  /* [NAVIGATION BAR CODE STARTS] */
+  nav {
+    z-index: 5;
+    top: 75px;
+    width: 100%;
+    height: 35px;
+    position: sticky;
+    background-color:red;
+  }
+  
+  .navigation {
+    position: relative;
+    display: flex;
+    height: 0px;
+    width: 800px;
+    left: 280px;
+  }
+  
+  .navigationlist {
+    position: relative;
+    display: inline;
+    width: 500px;
+    height: 0px;
+    left: 0px;
+  }
+  
+  .navanchor {
+    position: relative;
+    display: inline;
+    text-decoration: underline;
+    left: 0px;
+    top: 4px;
+    height: 35px;
+    background-color:red;
+    color: whitesmoke;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding: 4px 8px 9px 7px;
+  }
+  
+  .navanchor:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  .book {
+    text-align: center;
+    width: 60px;
+    position: absolute;
+    left: 80px;
+    top: 4px;
+    height: 3px;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color:red;
+    /* border: 1px solid black; */
+  }
+  
+  .booklist {
+    list-style-type: none;
+    position: relative;
+    top: 0px;
+    background-color: red;
+    left: -80px;
+    height: 405px;
+    font-size: 16px;
+    text-align: left;
+    list-style-type: none;
+    color: white;
+    display: none;
+  }
+  
+  .book:hover {
+    color: black;
+  }
+  
+  .book:hover .booklist {
+    display: block;
+    width: 240px;
+  }
+  
+  /* [BOOKLIST DROPDOWN & SUBLIST CODE] */
+  
+  /* [LITERATURE & LITERATURELIST CODE] */
+  
+  .booklistanchor {
+    position: relative;
+    display: block;
+    height: 0px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .literature {
+    position: relative;
+    top: 8px;
+    color: white;
+    background-color:red;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  
+  .literaturelist {
+    list-style-type: none;
+    position: absolute;
+    background-color:red;
+    left: 240px;
+    height: 200px;
+    width: 180px;
+    top: 0px;
+    display: none;
+  }
+  
+  .literature:hover {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  .literature:hover .literaturelist {
+    display: block;
+  }
+  
+  .listone {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    height: 30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color:red;
+  }
+  
+  .listone:hover {
+    background-color: rgb(252, 245, 245);
+  }
+  
+  .listone:hover .booklistanchor {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  /* [LITERATURE END] */
+  
+  /* [HISTORY & HUMANITIES CODE] */
+  .history {
+    position: relative;
+    top: 8px;
+    color: white;
+    background-color:red;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  
+  .historylist {
+    list-style-type: none;
+    position: absolute;
+    background-color:red;
+    left: 240px;
+    height: 140px;
+    width: 180px;
+    top: 0px;
+    display: none;
+  }
+  
+  .history:hover {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  .history:hover .historylist {
+    display: block;
+  }
+  
+  .listtwo {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    height: 30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color:red;
+  }
+  
+  .listtwo:hover {
+    background-color: rgb(252, 245, 245);
+  }
+  
+  .listtwo:hover .booklistanchor {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  /* [HISTORY END] */
+  
+  /* [ SOCIETY & SOCIETYLIST CODE] */
+  .society {
+    position: relative;
+    top: 8px;
+    color: white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color:red;
+  }
+  
+  .societylist {
+    list-style-type: none;
+    position: absolute;
+    left: 240px;
+    background-color:red;
+    height: 140px;
+    width: 180px;
+    top: 0px;
+    display: none;
+  }
+  
+  .society:hover {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  .society:hover .societylist {
+    display: block;
+  }
+  
+  .listthree {
+    top: 15px;
+    position: relative;
+    left: 0px;
+    height: 30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color: red;
+  }
+  
+  .listthree:hover {
+    background-color: rgb(252, 245, 245);
+  }
+  
+  .listthree:hover .booklistanchor {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  /* [SOCIETYLIST END] */
+  
+  /* [SCIENCE & SICENCELIST CODE] */
+  .science {
+    position: relative;
+    top: 8px;
+    color: white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color:red;
+  }
+  
+  .sciencelist {
+    list-style-type: none;
+    position: absolute;
+    background-color:red;
+    left: 240px;
+    height: 170px;
+    width: 180px;
+    top: 0px;
+    display: none;
+  }
+  
+  .science:hover {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  .science:hover .sciencelist {
+    display: block;
+  }
+  
+  .listfour {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    height: 30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color:red;
+  }
+  
+  .listfour:hover {
+    background-color: rgb(252, 245, 245);
+  }
+  
+  .listfour:hover:hover .booklistanchor {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  /* [SCIENCELIST END] */
+  
+  /* [ENVIORNMENT & ENVIORNMENTLIST CODE] */
+  .enviornment {
+    position: relative;
+    top: 8px;
+    color: white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color:red;
+  }
+  
+  .enviornmentlist {
+    list-style-type: none;
+    position: absolute;
+    background-color:red;
+    left: 240px;
+    height: 140px;
+    width: 180px;
+    top: 0px;
+    display: none;
+  }
+  
+  .enviornment:hover {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  .enviornment:hover .enviornmentlist {
+    display: block;
+  }
+  
+  .listfive {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    height: 30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color:red;
+  }
+  
+  .listfive:hover {
+    background-color: rgb(252, 245, 245);
+  }
+  
+  .listfive:hover .booklistanchor {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  /* [ENVIORNMENTLIST END] */
+  
+  /* [FAMILY & FAMILYLIST CODE] */
+  .family {
+    position: relative;
+    top: 8px;
+    color: white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color:red;
+  }
+  
+  .familylist {
+    list-style-type: none;
+    position: absolute;
+    background-color:red;
+    left: 240px;
+    height: 110px;
+    width: 180px;
+    top: 0px;
+    display: none;
+  }
+  
+  .family:hover {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  .family:hover .familylist {
+    display: block;
+  }
+  
+  .listsix {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    height: 30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color:red;
+  }
+  
+  .listsix:hover {
+    background-color: rgb(252, 245, 245);
+  }
+  
+  .listsix:hover .booklistanchor {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  /* [FAMILYLIST END] */
+  
+  /* [BIOGHRAPHIES & BIOGRAPHIESLIST CODE] */
+  .biographies {
+    position: relative;
+    top: 8px;
+    color: white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color:red;
+  }
+  
+  .biographieslist {
+    list-style-type: none;
+    position: absolute;
+    background-color:red;
+    left: 240px;
+    height: 110px;
+    width: 180px;
+    top: 0px;
+    display: none;
+  }
+  
+  .biographies:hover {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  .biographies:hover .biographieslist {
+    display: block;
+  }
+  
+  .listseven {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    height: 30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color:red
+  }
+  
+  .listseven:hover {
+    background-color: rgb(252, 245, 245);
+  }
+  
+  .listseven:hover .booklistanchor {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  /* [bIOGRAPHIESLIST END] */
+  
+  /* [ART & ARTLIST CODE] */
+  .art {
+    position: relative;
+    top: 8px;
+    color: white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color:red;
+  }
+  
+  .artlist {
+    list-style-type: none;
+    position: absolute;
+    background-color:red;
+    left: 240px;
+    height: 200px;
+    width: 180px;
+    bottom: 0px;
+    display: none;
+  }
+  
+  .art:hover {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  .art:hover .artlist {
+    display: block;
+  }
+  
+  .listeight {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    height: 30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color:red;
+  }
+  
+  .listeight:hover {
+    background-color: rgb(252, 245, 245);
+  }
+  
+  .listeight:hover:hover .booklistanchor {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  /* [ARTLIST END] */
+  
+  /* [ENCYCLOPAEDIA &  E-LIST CODE] */
+  .encyclopaedia {
+    position: relative;
+    top: 8px;
+    color: white;
+    text-align: left;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color:red;
+  }
+  
+  .encyclopaedialist {
+    list-style-type: none;
+    position: absolute;
+    background-color:red;
+    left: 240px;
+    height: 170px;
+    width: 180px;
+    bottom: 0px;
+    display: none;
+  }
+  
+  .encyclopaedia:hover {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  .encyclopaedia:hover .encyclopaedialist {
+    display: block;
+  }
+  
+  .listnine {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    height: 30px;
+    font-size: 14px;
+    width: 175px;
+    padding-left: 5px;
+    background-color:red;
+  }
+  
+  .listnine:hover {
+    background-color: rgb(252, 245, 245);
+  }
+  
+  .listnine:hover:hover .booklistanchor {
+    background-color: rgb(252, 245, 245);
+    color: black;
+  }
+  
+  
+  /* [Nav Code Ends] */
+
+  /* [maincontaine code] */
+
+
+  .newarrival-page{
+    position:relative;
+    display: block;
+    height: 1250px;
+    width:1400px;
+    /* border: 1px solid black;  */
+    left:0px;
+    top:50px;
+  }
+
+  .newarrival-head{
+    position: relative;
+    display: block;
+    left: 650px;
+    top:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    color: gray;
+
+  }
+
+  .newarrival-section{
+    position:absolute;
+    display:inline;
+    /* border: 1px solid black; */
+   
+    left:20px;
+    top:100px;
+  }
+
+
+  .newarrival-section-one{
+    z-index:5;
+    position:sticky;
+    display:block;
+    left:100px;
+    top:250px;
+    /* border: 1px solid rgb(217, 209, 209); */
+    height:350px;
+    width:200px;
+
+  }
+
+  .refine{
+    position: relative;
+    top: 10px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .price-range{
+    position: relative;
+    top: 20px;
+  }
+
+  .discount-range{
+    position: relative;
+    top: 30px;
+  }
+
+  .binding{
+    position: relative;
+    top: 40px;
+  }
+  .binding-type{
+  position:absolute;
+  display:none; 
+  top:0px;
+  left: 130px;
+  height: 0px;
+}
+
+  .language{
+    position: relative;
+    top: 50px;
+  }
+
+.language-type{
+  position:absolute;
+  display:none;
+  top:0px;
+  left: 130px;
+  height: 0px;
+}
+
+.newarrival-section-two{
+  position:relative;
+  display:flex;
+  /* border: 1px solid black; */
+  left:300px;
+  top:0px;
+  width: 1200px;
+  height:fit-content;
+}
+
+.bestseller-one{
+  position: relative;
+  display: block;
+  border: 1px solid rgba(175, 175, 178,0.5);
+  width: 180px;
+  height:350px;
+}
+.bestseller-one-one{
+  position: absolute;
+  height: 20px;
+  width:150px;
+  /* border: 1px solid rebeccapurple; */
+}
+
+.one{
+  position:absolute;
+  display:block;
+  width:30px;
+  height:20px;
+  background-color:red;
+}
+.one::before{
+  position: absolute;
+  content:"";
+  top: 3.5px;
+  left: 24px;
+  background-color: red;
+  width:13.8px;
+  height:13.8px;
+  transform: rotate(45deg);
+
+}
+
+.one p{
+  position:absolute;
+  color: white;
+  left:8px;
+}
+
+.bestseller-one-two{
+position:relative;
+width:130px;
+height:180px;
+top:60px;
+left:25px;
+/* border: 1px solid blueviolet; */
+
+}
+.percent{
+  position:relative;
+  display: block;
+  background-color:red;
+  left:105px;
+  height: 40px;
+  width: 40px;
+  top:-200px;
+  border-radius:50%;
+}
+.percent p{
+  position:relative;
+  top: 10px;
+  left: 7px;
+  color: white;
+}
+
+.bestseller-one-info{
+  position:relative;
+  display: block;
+  width:150px;
+  /* border: 1px solid black; */
+  top:80px;
+  left: 14px;
+}
+
+.bestseller-one-bookname{
+  position: relative;
+  text-align: center;
+
+}
+
+.bestseller-one-author{
+  position: relative;
+  text-align: center;
+}
+
+.bestseller-one-price{
+  position: relative;
+  display: flex;
+  top: 5px;
+  left: 15px;
+  text-align: center;
+}
+
+.bestseller-two{
+  position: relative;
+  display: block;
+  border: 1px solid rgba(175, 175, 178,0.5);
+  width: 180px;
+  height:350px;
+}
+
+.bestseller-three{
+  position: relative;
+  display: block;
+  border: 1px solid rgba(175, 175, 178,0.5);
+  width: 180px;
+  height:350px;
+}
+
+.bestseller-four{
+  position: relative;
+  display: block;
+  border: 1px solid rgba(175, 175, 178,0.5);
+  width: 180px;
+  height:350px;
+}
+
+.bestseller-five{
+  position: relative;
+  display: block;
+  border: 1px solid rgba(175, 175, 178,0.5);
+  width: 180px;
+  height:350px;
+}
+
+.bestseller-six{
+  position: relative;
+  display: block;
+  border: 1px solid rgba(175, 175, 178,0.5);
+  width: 180px;
+  height:350px;
+}
+
+
+
+
+.footer {
+  z-index:4;
+  display:block;
+  position: relative;
+  width: 100%;
+  height:240px;
+  top:50px;
+  /* border: 2px solid crimson; */
+}
+
+.footer-container {
+  position: relative;
+  display: flex;
+  height: 230px;
+  background-color: rgb(254, 4, 4);
+  /* border-top: 2px solid rgb(15, 61, 62); */
+  width: 100%;
+}
+
+.company {
+  position: relative;
+  display: block;
+  left: 150px;
+  top: 30px;
+  /* border-right: 2px solid crimson; */
+}
+
+.company h4 {
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.companylist {
+  position: relative;
+  list-style-type: none;
+  top: 20px;
+  line-height: 25px;
+}
+
+.companylist a {
+  text-decoration: none;
+  color: black;
+}
+
+.policy {
+  position: relative;
+  display: block;
+  left: 450px;
+  top: 30px;
+  /* border-right: 2px solid crimson; */
+}
+
+.policy h4 {
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.policieslist {
+  position: relative;
+  list-style-type: none;
+  top: 20px;
+  line-height: 25px;
+}
+
+.policieslist a {
+  text-decoration: none;
+  color: black;
+}
+
+.help {
+  position: relative;
+  display: block;
+  left: 750px;
+  top: 30px;
+  /* border-right: 2px solid crimson; */
+}
+
+.help h4 {
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.helplist {
+  position: relative;
+  list-style-type: none;
+  top: 20px;
+  line-height: 25px;
+}
+
+.helplist a {
+  text-decoration: none;
+  color: black;
+}
+
+.misc {
+  position: relative;
+  display: block;
+  left: 150px;
+  top: 30px;
+  left: 1000px;
+  /* border-right: 2px solid crimson; */
+}
+
+.misc h4 {
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.misclist {
+  position: relative;
+  list-style-type: none;
+  top: 20px;
+  line-height: 25px;
+}
+
+.misclist a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-icon {
+  display: inline;
+  position: relative;
+  top: 190px;
+  height: 0px;
+  left: 300px;
+}
+
+.footer-list-icon {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer-list-item {
+  width: 50px;
+}
+
