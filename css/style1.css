@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* background-color:orchid; */
-  /* background-image: url(/bookself.jpg); */
+  /* border: 2px solid red; */
 }
 
 /* [HEADER CODE START] */
@@ -48,7 +47,7 @@ header {
 
 .searchbar img {
   position: relative;
-  display:inline;
+  display: inline;
   height: 27px;
   width: 38px;
   border-radius: 5px 0px 0px 5px;
@@ -110,7 +109,7 @@ nav {
   width: 100%;
   height: 35px;
   position: sticky;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
 }
 
 .navigation {
@@ -136,7 +135,7 @@ nav {
   left: 0px;
   top: 4px;
   height: 35px;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
   color: whitesmoke;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 17px;
@@ -159,7 +158,7 @@ nav {
   font-size: 18px;
   display: inline-block;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
   /* border: 1px solid black; */
 }
 
@@ -167,7 +166,7 @@ nav {
   list-style-type: none;
   position: relative;
   top: 0px;
-  background-color: red;
+  background-color:rgb(236, 28, 36);
   left: -80px;
   height: 405px;
   font-size: 16px;
@@ -203,7 +202,7 @@ nav {
   position: relative;
   top: 8px;
   color: white;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
   text-align: left;
   height: 35px;
   padding-top: 10px;
@@ -213,7 +212,7 @@ nav {
 .literaturelist {
   list-style-type: none;
   position: absolute;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
   left: 240px;
   height: 200px;
   width: 180px;
@@ -238,7 +237,7 @@ nav {
   font-size: 14px;
   width: 175px;
   padding-left: 5px;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
 }
 
 .listone:hover {
@@ -257,7 +256,7 @@ nav {
   position: relative;
   top: 8px;
   color: white;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
   text-align: left;
   height: 35px;
   padding-top: 10px;
@@ -267,7 +266,7 @@ nav {
 .historylist {
   list-style-type: none;
   position: absolute;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
   left: 240px;
   height: 140px;
   width: 180px;
@@ -292,7 +291,7 @@ nav {
   font-size: 14px;
   width: 175px;
   padding-left: 5px;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
 }
 
 .listtwo:hover {
@@ -315,14 +314,14 @@ nav {
   height: 35px;
   padding-top: 10px;
   padding-left: 15px;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
 }
 
 .societylist {
   list-style-type: none;
   position: absolute;
   left: 240px;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
   height: 140px;
   width: 180px;
   top: 0px;
@@ -346,7 +345,7 @@ nav {
   font-size: 14px;
   width: 175px;
   padding-left: 5px;
-  background-color: red;
+  background-color: rgb(236, 28, 36);
 }
 
 .listthree:hover {
@@ -369,13 +368,13 @@ nav {
   height: 35px;
   padding-top: 10px;
   padding-left: 15px;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
 }
 
 .sciencelist {
   list-style-type: none;
   position: absolute;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
   left: 240px;
   height: 170px;
   width: 180px;
@@ -400,7 +399,7 @@ nav {
   font-size: 14px;
   width: 175px;
   padding-left: 5px;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
 }
 
 .listfour:hover {
@@ -423,13 +422,13 @@ nav {
   height: 35px;
   padding-top: 10px;
   padding-left: 15px;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
 }
 
 .enviornmentlist {
   list-style-type: none;
   position: absolute;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
   left: 240px;
   height: 140px;
   width: 180px;
@@ -454,7 +453,7 @@ nav {
   font-size: 14px;
   width: 175px;
   padding-left: 5px;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
 }
 
 .listfive:hover {
@@ -477,13 +476,13 @@ nav {
   height: 35px;
   padding-top: 10px;
   padding-left: 15px;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
 }
 
 .familylist {
   list-style-type: none;
   position: absolute;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
   left: 240px;
   height: 110px;
   width: 180px;
@@ -508,7 +507,7 @@ nav {
   font-size: 14px;
   width: 175px;
   padding-left: 5px;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
 }
 
 .listsix:hover {
@@ -531,13 +530,13 @@ nav {
   height: 35px;
   padding-top: 10px;
   padding-left: 15px;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
 }
 
 .biographieslist {
   list-style-type: none;
   position: absolute;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
   left: 240px;
   height: 110px;
   width: 180px;
@@ -562,7 +561,7 @@ nav {
   font-size: 14px;
   width: 175px;
   padding-left: 5px;
-  background-color:red
+  background-color:rgb(236, 28, 36);
 }
 
 .listseven:hover {
@@ -585,13 +584,13 @@ nav {
   height: 35px;
   padding-top: 10px;
   padding-left: 15px;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
 }
 
 .artlist {
   list-style-type: none;
   position: absolute;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
   left: 240px;
   height: 200px;
   width: 180px;
@@ -616,7 +615,7 @@ nav {
   font-size: 14px;
   width: 175px;
   padding-left: 5px;
-  background-color:red;
+  background-color:rgb(236, 28, 36);
 }
 
 .listeight:hover {
@@ -639,13 +638,13 @@ nav {
   height: 35px;
   padding-top: 10px;
   padding-left: 15px;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
 }
 
 .encyclopaedialist {
   list-style-type: none;
   position: absolute;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
   left: 240px;
   height: 170px;
   width: 180px;
@@ -670,7 +669,7 @@ nav {
   font-size: 14px;
   width: 175px;
   padding-left: 5px;
-  background-color:red;
+  background-color: rgb(236, 28, 36);
 }
 
 .listnine:hover {
@@ -682,12 +681,14 @@ nav {
   color: black;
 }
 
+/* [NAVIGATION CODE ENDS] */
+
 .book-info {
   z-index: 4;
   position: relative;
   display: block;
   width: 1200px;
-  height:1020px;
+  height: 1020px;
   top: 40px;
   left: 150px;
   /* border: 1px solid rgb(2, 2, 2); */
@@ -716,22 +717,23 @@ nav {
 .book-author {
   position: relative;
   display: block;
-  width: 3500px;
+  width: 600px;
   font-size: larger;
 }
 
 .line-two {
   position: relative;
   top: 10px;
+  width:600px;
 }
 
 .price-info {
   position: relative;
   display: block;
   left: 300px;
-  top: -240px;
+  top: -280px;
   height: 40px;
-  width: 600px;
+  width:200px;
   /* border: 1px solid black; */
 }
 
@@ -739,8 +741,9 @@ nav {
   position: relative;
   display: flex;
   height: 30px;
-  top: 30px;
+  top: 10px;
   text-align: center;
+  width: 500px;
   /* border: 1px solid black; */
 
 }
@@ -749,7 +752,7 @@ nav {
   position: relative;
   display: block;
   padding-top: 3px;
-  width:150px;
+  width: 150px;
   background-color: red;
   border: 1px solid red;
   color: white;
@@ -772,7 +775,7 @@ nav {
   position: relative;
   display: block;
   left: 40px;
-  width:150px;
+  width: 150px;
   padding-top: 3px;
   background-color: red;
   border: 1px solid red;
@@ -783,7 +786,7 @@ nav {
 .about-book {
   position: relative;
   display: block;
-  top:0px;
+  top: 0px;
   border-bottom: 1px solid gray;
   width: 1200px;
   height: 540px;
@@ -803,7 +806,7 @@ nav {
   display: block;
   top: 50px;
   left: 150px;
-  height:200px;
+  height: 200px;
   width: 1200px;
   /* border: 1px solid black; */
 }
@@ -835,13 +838,13 @@ nav {
 }
 
 .related-catogories {
-  z-index:4;
-  display:block;
-  position:relative;
+  z-index: 4;
+  display: block;
+  position: relative;
   top: 120px;
   left: 150px;
-  width:1200px;
-  height:400px;
+  width: 1000px;
+  height: 400px;
   /* border: 1px solid black; */
 }
 
@@ -850,7 +853,7 @@ nav {
   position: relative;
   top: 10px;
   height: 0px;
-  width: 1450px;
+  width: px;
   display: block;
 }
 
@@ -875,7 +878,7 @@ nav {
   position: relative;
   top: 15px;
   left: 0px;
-  width: 1400px;
+  width: 1000px;
   height: 200px;
 }
 
@@ -1038,19 +1041,20 @@ nav {
 
 /* [footer start code] */
 .footer {
-  z-index:4;
-  display:block;
+  z-index: 4;
+  display: block;
   position: relative;
   width: 100%;
   top: 180px;
-  
+  left:-2px;
+
 }
 
 .footer-container {
   position: relative;
   display: flex;
   height: 250px;
-  background-color: red;
+  background-color:rgb(236, 28, 36);
   width: 100%;
 }
 
@@ -1059,6 +1063,7 @@ nav {
   display: block;
   left: 150px;
   top: 30px;
+  height:0px;
   /* border-right: 2px solid crimson; */
 }
 
@@ -1086,6 +1091,7 @@ nav {
   display: block;
   left: 450px;
   top: 30px;
+  height: 0px;
   /* border-right: 2px solid crimson; */
 }
 
@@ -1113,6 +1119,7 @@ nav {
   display: block;
   left: 750px;
   top: 30px;
+  height: 0px;
   /* border-right: 2px solid crimson; */
 }
 
@@ -1141,6 +1148,7 @@ nav {
   left: 150px;
   top: 30px;
   left: 1000px;
+  height: 0px;
   /* border-right: 2px solid crimson; */
 }
 
